@@ -1,0 +1,4 @@
+0. From 3x3 to 9x9 are allowed
+1. With a two dimensional array
+2. printf function followed  by a usleep function which put the current thread to sleep for awhile
+3. init, draw, move and won function must be implemented

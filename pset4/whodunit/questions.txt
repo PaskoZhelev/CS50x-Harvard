@@ -1,0 +1,26 @@
+1.   Its purpose is to declare sets of integer types having specified widths, and shall define corresponding sets of macros
+
+2.  They define the way that you are going to use the data for your purposes.
+
+3.  BYTE = 8 bits = 1 byte ; DWORD= 32 bits = 4 bytes ; LONG 32 bits = 4 bytes ; WORD = 16 bits = 2 bytes
+
+4.  The first two bytes should be set to the word BM to indicate bitmap. This denotes the bfType. 
+
+5.  bfSize - defines the size of the bitmap file (in bytes)
+    biSize - defines the size of the structure (in bytes)
+    
+6.  If biHeight is negative, the bitmap is a top-down DIB (device-independent bitmap)
+	with origin - the upper left corner.
+	
+7.  biBitCount 
+
+8.  An error may occur because the file with that name cannot be found and opened.
+
+9.  fread defines how many elements you want to read and since we are reading struct we need only 1 element.
+
+10. The padding is going to be 3. Since 3 pixels * 3 3 bytes per pixel = 9 bytes. 3 bytes are needed to 12 bytes so it would be multiple to 4.
+
+11. It is used to set the file position of the stream to the given offset.
+
+12. An integer constant which, when used as the whence argument to the fseek or fseeko function,
+	specifies that the offset provided is relative to the current file position

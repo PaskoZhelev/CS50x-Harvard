@@ -1,0 +1,12 @@
+0.  It is the longest word in English language.
+1.  It returns the ammount of usage of resources of a particular process
+2.  There are 16 members in a variable of type struct rusage
+3.  Because otherwise a whole new structure will be created and this implies that more memory will be used.
+4.  The for loop gets a single character from the loaded file. If it is not numeric it is added to word and the index is increased
+    by one. If the index exceeds 45 (Max length possible) it means that the word is not valid and the
+    index is reseted (index = 0).
+    
+    However, if the character is numeric the speller discards the previousle added characters to the word until it reaches a whitespace
+    or EOF and the index is reseted.
+5.  More memory will be used if using fscanf than fgetc.
+6.  This is made to prevent further change of a particular variable. This will prevent the overwriting of information .

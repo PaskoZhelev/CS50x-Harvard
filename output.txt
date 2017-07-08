@@ -1,0 +1,18 @@
+Trying 104.16.151.6...
+Connected to www.harvard.edu.cdn.cloudflare.net.
+Escape character is '^]'.
+HTTP/1.1 400 Bad Request
+Date: Sat, 01 Jul 2017 06:56:19 GMT
+Content-Type: text/html
+Content-Length: 177
+Connection: close
+Server: -nginx
+CF-RAY: -
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body bgcolor="white">
+<center><h1>400 Bad Request</h1></center>
+<hr><center>cloudflare-nginx</center>
+</body>
+</html>
